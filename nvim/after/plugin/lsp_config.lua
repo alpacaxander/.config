@@ -1,6 +1,13 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-	ensure_installed = { "lua_ls", "ts_ls" }
+	ensure_installed = {
+        "tsserver",
+        "tsx",
+        "json",
+        "html",
+        "lua",
+        "yaml"
+    }
 })
 
 local on_attach = function (_, _)
