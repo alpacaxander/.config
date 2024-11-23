@@ -1,12 +1,9 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
 	ensure_installed = {
-        "tsserver",
-        "tsx",
-        "json",
         "html",
-        "lua",
-        "yaml"
+        "eslint",
+        "lua_ls"
     }
 })
 
