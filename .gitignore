@@ -1,0 +1,4 @@
+
+# Should be derived from nixos home-manager
+environment.d/
+git/
