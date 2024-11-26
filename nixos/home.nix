@@ -42,6 +42,11 @@
       enable = true;
       userEmail = "alexander.dean.paulsell@gmail.com";
       userName = "Alexander Paulsell";
+      extraConfig = {
+        push = {
+          autoSetupRemote = true;
+        };
+      };
     };
   };
 }
