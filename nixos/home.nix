@@ -12,6 +12,8 @@
     ripgrep
     # At time of adding, only using for nvim language servers
     gcc14
+
+    bun
   ];
 
   home.file = {
