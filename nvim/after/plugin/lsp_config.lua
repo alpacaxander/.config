@@ -20,6 +20,6 @@ end
 require("lspconfig").lua_ls.setup({
 	on_attach = on_attach
 })
-require("lspconfig").ts_ls.setup({
+require("lspconfig").eslint.setup({
 	on_attach = on_attach
 })

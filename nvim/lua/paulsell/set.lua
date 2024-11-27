@@ -1,6 +1,6 @@
 
 -- Fat curser
-vim.opt.guicursor = ""
+-- vim.opt.guicursor = ""
 
 -- Line Number yes + relative
 vim.opt.nu = true

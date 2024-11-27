@@ -8,6 +8,10 @@
   home.stateVersion = "24.05";
 
   home.packages = with pkgs; [
+    # Needed for nvim telescope live grep
+    ripgrep
+    # At time of adding, only using for nvim language servers
+    gcc14
   ];
 
   home.file = {
